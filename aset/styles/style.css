@@ -141,7 +141,7 @@ figure,
     position: relative;
 }
 
-aside ul li {
+.project ul li {
     display: inline-block;
 }
 
