@@ -141,7 +141,7 @@ figure,
     position: relative;
 }
 
-.flex-column ul li {
+.flex-column ol li {
     text-decoration: none;
 }
 
