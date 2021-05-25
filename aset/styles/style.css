@@ -142,7 +142,7 @@ figure,
 }
 
 .project ul li {
-    text-decoration: none;
+    display: inline-block;
 }
 
 /* end */
