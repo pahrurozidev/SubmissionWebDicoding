@@ -141,7 +141,7 @@ figure,
     position: relative;
 }
 
-.project ul li {
+.flex-column ul li {
     list-style-type: none;
 }
 
