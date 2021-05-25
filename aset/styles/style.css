@@ -141,6 +141,10 @@ figure,
     position: relative;
 }
 
+.project ul li {
+    text-decoration: none;
+}
+
 /* end */
 
 .hr {
