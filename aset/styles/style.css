@@ -199,6 +199,18 @@ img,
 }
 
 @media screen and (max-width: 513px) {
+
+    .port {
+        margin-left: 12px;
+    }
+
+    .sub {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 12px;
+    }
+
     .flex-row {
         display: flex;
         flex-direction: column;
