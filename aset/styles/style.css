@@ -142,7 +142,7 @@ figure,
 }
 
 .project ul li {
-    display: inline-block;
+    list-style-type: none;
 }
 
 /* end */
