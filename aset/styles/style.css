@@ -1,0 +1,314 @@
+@font-face {
+    font-family: 'viga';
+    src: url(aset/font/viga-regular-webfont.woff) format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "viga",
+        arial,
+        sans-serif;
+    color: white;
+    background-color: rgb(211, 133, 17);
+}
+
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    background-color: rgb(211, 133, 17);
+    z-index: 9999;
+    border-bottom: 2px solid rgba(177, 103, 34, 0.4);
+}
+
+.port {
+    margin-left: 40px;
+}
+
+.sub {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 40px;
+}
+
+.btn {
+    border-bottom: 2px solid white;
+    margin: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 20px 30px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.jumbotron {
+    padding: 20px;
+    height: 550px;
+    width: 100%;
+}
+
+figure {
+    margin: 60px auto 0;
+}
+
+.profile {
+    width: 130px;
+    height: 140px;
+    border-radius: 50%;
+    margin-top: 50px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+}
+
+.name {
+    margin-top: -2px;
+    font-size: 20px !important;
+}
+
+figure,
+.name,
+.project,
+.tentang,
+.kontak {
+    font-size: 26px;
+    text-align: center;
+}
+
+.job {
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* open */
+
+.title {
+    width: 287px;
+    background-color: rgba(0, 0, 0, .1);
+    margin: auto;
+    margin-bottom: -10px;
+    border-radius: 3px 3px 0 0;
+    padding: 0 5px;
+}
+
+.link {
+    width: 287px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: auto;
+    border-radius: 0 0 3px 3px;
+    margin-top: -26px;
+    padding: 21px 0 8px;
+    border-bottom: 1px solid rgb(161, 104, 17);
+    ;
+    border-left: 1px solid rgb(161, 104, 17);
+    ;
+    border-right: 1px solid rgb(161, 104, 17);
+    ;
+}
+
+.link:hover {
+    background-color: rgb(226, 143, 17);
+}
+
+.sub1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+}
+
+.sub2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.img {
+    padding: 0 10px 10px 10px;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+}
+
+/* end */
+
+.hr {
+    border: 1px solid white;
+    width: 130px;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.br {
+    margin-bottom: 40px;
+}
+
+section {
+    min-height: 600px;
+    padding-top: 60px;
+}
+
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: rgb(211, 133, 17);
+    height: 70px;
+    margin: 0;
+    color: rgb(230, 230, 230);
+    text-align: center;
+    line-height: 70px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+
+img,
+.item {
+    flex-grow: 1;
+    margin: 10px;
+}
+
+@media screen and (max-width: 513px) {
+    .flex-row {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1px;
+    }
+
+    img {
+        flex-grow: 1;
+    }
+
+    nav ul li {
+        margin: 15px 7px;
+    }
+
+    li a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .flex-row {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1px;
+    }
+
+    img {
+        flex-grow: 1;
+    }
+
+    nav ul li {
+        margin: 15px 7px;
+    }
+
+    li a {
+        font-size: 14px;
+    }
+}
+
+form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+label {
+    position: absolute;
+    top: -15px;
+}
+
+input {
+    width: 50%;
+    height: 30px;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+select {
+    width: 50%;
+    height: 30px;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+textarea {
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    width: 50%;
+    height: 100px;
+    padding: 10px;
+}
+
+.flex-column ul li {
+    margin-top: 30px;
+    position: relative;
+}
+
+button {
+    padding: 5px 20px;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    box-shadow: 2px 2px 2px rgba(19, 18, 18, 0.2);
+}
+
+.deskripsi {
+    font-family: 'fira code', arial, sans-serif;
+    font-size: 16px;
+}
+
+.tag {
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.user {
+    margin-top: 10px;
+}
+
+i {
+    font-weight: 100;
+}
+
+.moto {
+    margin-top: 60px !important;
+}
+
+b {
+    font-size: 22px;
+}
