@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'viga';
-    src: url(aset/font/viga-regular-webfont.woff) format('woff');
+    src: url(../font/viga-regular-webfont.woff) format('woff');
 }
 
 * {
