@@ -278,7 +278,7 @@ b {
     font-size: 22px;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 513px) {
 
     .port {
         margin-left: 12px;
