@@ -141,8 +141,8 @@ figure,
     position: relative;
 }
 
-.flex-column ol li {
-    text-decoration: none;
+.flex-column ul li {
+    list-style-type: none !important;
 }
 
 /* end */
