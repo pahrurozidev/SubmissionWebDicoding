@@ -198,58 +198,6 @@ img,
     margin: 10px;
 }
 
-@media screen and (max-width: 513px) {
-
-    .port {
-        margin-left: 12px;
-    }
-
-    .sub {
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin-right: 12px;
-    }
-
-    .flex-row {
-        display: flex;
-        flex-direction: column;
-        margin-top: 1px;
-    }
-
-    img {
-        flex-grow: 1;
-    }
-
-    nav ul li {
-        margin: 15px 7px;
-    }
-
-    li a {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .flex-row {
-        display: flex;
-        flex-direction: column;
-        margin-top: 1px;
-    }
-
-    img {
-        flex-grow: 1;
-    }
-
-    nav ul li {
-        margin: 15px 7px;
-    }
-
-    li a {
-        font-size: 14px;
-    }
-}
-
 form {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
@@ -321,6 +269,75 @@ i {
     margin-top: 60px !important;
 }
 
+.moto p {
+    font-style: italic;
+    font-size: large;
+}
+
 b {
     font-size: 22px;
+}
+
+@media screen and (max-width: 599px) {
+
+    .port {
+        margin-left: 12px;
+    }
+
+    .sub {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 12px;
+    }
+
+    .flex-row {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1px;
+    }
+
+    img {
+        flex-grow: 1;
+    }
+
+    nav ul li {
+        margin: 15px 7px;
+    }
+
+    li a {
+        font-size: 14px;
+    }
+
+    .moto p {
+        font-style: italic;
+        font-size: 20px;
+    }
+
+    input,
+    select,
+    textarea {
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .flex-row {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1px;
+    }
+
+    img {
+        flex-grow: 1;
+    }
+
+    nav ul li {
+        margin: 15px 7px;
+    }
+
+    li a {
+        font-size: 14px;
+    }
 }
