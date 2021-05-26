@@ -54,6 +54,13 @@ li a {
     font-size: 16px;
 }
 
+.active ul li a:hover {
+    display: block;
+    border-bottom: 3px solid white;
+    width: 40%;
+    padding-bottom: 2px;
+}
+
 .jumbotron {
     padding: 20px;
     height: 550px;
@@ -142,7 +149,7 @@ figure,
 }
 
 .flex-column ul li {
-    list-style-type: none !important;
+    list-style-type: none;
 }
 
 /* end */
@@ -235,6 +242,12 @@ textarea {
     width: 50%;
     height: 100px;
     padding: 10px;
+}
+
+input,
+select,
+textarea {
+    border-radius: 5px;
 }
 
 .flex-column ul li {
